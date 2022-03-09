@@ -73,7 +73,7 @@ class _MyAppState extends State<MyApp> {
           title: const Text('Вывод данных из формата JSON'),
         ),
         body: Container(
-          padding: const EdgeInsets.symmetric(horizontal: 42),
+          padding: const EdgeInsets.symmetric(horizontal: 36),
           child: Center(
             child: FutureBuilder<Post>(
               future: futurePost,
@@ -85,7 +85,7 @@ class _MyAppState extends State<MyApp> {
                     'Body:  '+
                     snapshot.data!.body,
                     style :
-                        const TextStyle(fontSize : 24,
+                        const TextStyle(fontSize : 28,
                         color : Color(0xFFFF4500)
                     ),
                   );
